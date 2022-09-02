@@ -1,0 +1,27 @@
+#sliderFrame { position: relative; width: 900px; margin: 0px auto; }
+
+#ribbon { width: 111px; height: 111px; position: absolute; top: -4px; left: -4px; background-image: url(ribbon.png); z-index: 7; background-position: initial initial; background-repeat: no-repeat no-repeat; }
+
+#slider { width: 900px; height: 250px; background-image: url(loading.gif); background-color: rgb(255, 255, 255); position: relative; margin: 0px auto; box-shadow: rgb(153, 153, 153) 0px 1px 5px; background-position: 50% 50%; background-repeat: no-repeat no-repeat; }
+
+#slider img { position: absolute; border: none; display: none; }
+
+#slider a.imgLink { z-index: 2; display: none; position: absolute; top: 0px; left: 0px; border: 0px; padding: 0px; margin: 0px; width: 100%; height: 100%; }
+
+div.mc-caption-bg, div.mc-caption-bg2 { position: absolute; width: 100%; height: auto; padding: 0px; left: 0px; bottom: 0px; z-index: 3; overflow: hidden; font-size: 0px; }
+
+div.mc-caption-bg { background-color: black; }
+
+div.mc-caption { font-weight: bold; font-style: normal; font-variant: normal; font-size: 14px; line-height: 20px; font-family: Arial; color: rgb(238, 238, 238); z-index: 4; padding: 10px 0px; text-align: center; }
+
+div.mc-caption a { color: rgb(255, 187, 0); }
+
+div.mc-caption a:hover { color: rgb(221, 170, 0); }
+
+div.navBulletsWrapper { top: 260px; left: 50px; width: 150px; background-image: none; padding-left: 20px; position: relative; z-index: 5; cursor: pointer; background-position: initial initial; background-repeat: initial initial; }
+
+div.navBulletsWrapper div { width: 11px; height: 11px; background-image: url(bullet.png); background-color: transparent; float: left; overflow: hidden; vertical-align: middle; cursor: pointer; margin-right: 11px; background-position: 0px 0px; background-repeat: no-repeat no-repeat; }
+
+div.navBulletsWrapper div.active { background-position: 0px -11px; }
+
+#slider { }
